@@ -1,0 +1,270 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/* h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+} */
+
+.subtitle {
+  font-family: "Gilroy-Bold";
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  color: #070707;
+}
+
+body {
+  font-family: "gilroy-bold";
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.container {
+  max-width: 1005px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.menu {
+  position: relative;
+  display: flex;
+  gap: 155px;
+  padding: 10px 18px;
+}
+
+.menu::after {
+  content: "";
+  top: 68px;
+  position: absolute;
+  border-bottom: 1px solid #828282;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  width: 940px;
+}
+
+.menu__link {
+  line-height: 22px;
+  color: #828282;
+  transition: 0.4;
+}
+
+.menu__link:hover {
+  color: #070707;
+}
+
+.header__bottom {
+  position: relative;
+}
+
+.header__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 47px;
+  line-height: 63px;
+}
+
+.title-bottom {
+  top: 85px;
+  position: absolute;
+  font-size: 18px;
+  line-height: 22px;
+  left: 434px;
+}
+
+.text__right {
+  margin-bottom: -20px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #828282;
+  transform: rotate(-90deg);
+}
+
+.lang {
+  margin-bottom: -20px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #828282;
+  transform: rotate(-90deg);
+  text-transform: uppercase;
+}
+
+.lang__link {
+  cursor: pointer;
+  transition: 0.3s all;
+}
+.lang__link_sub:hover {
+  filter: drop-shadow(0 0 1px rgb(0, 0, 0)) brightness(100%);
+  color: #070707;
+}
+.bg-header {
+  margin-top: 6px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about {
+  display: flex;
+  margin-top: 185px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about__text {
+  display: flex;
+  flex-direction: column;
+  max-width: 485px;
+  gap: 39px;
+  text-align: center;
+}
+
+.span__about {
+  font-family: "gilroy-Medium";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #070707;
+}
+
+/* ---------------------------programs__skills--------------------------- */
+.programs__skills {
+  margin-top: 185px;
+}
+
+.programs__info-text {
+  margin-top: 70px;
+  margin-bottom: 85px;
+  text-align: center;
+}
+
+.programs__cards {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;
+}
+
+.programs__card {
+  max-width: 166px;
+}
+
+.programs__card:nth-child(1) {
+  margin-right: 90px;
+}
+.programs__card:nth-child(2) {
+  margin-right: 90px;
+}
+.programs__card:nth-child(3) {
+  margin-right: 90px;
+}
+.card-title {
+  font-family: "Gilroy-Bold";
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
+  margin-bottom: 30px;
+}
+
+.portfolio {
+  margin-top: 185px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.portfolio__title {
+  margin-bottom: 50px;
+}
+
+.fashion {
+  margin-top: 46px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fashion__title {
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #070707;
+  margin-bottom: 100px;
+}
+
+.landing-title {
+  margin-top: 45px;
+}
+
+.contact {
+  margin-top: 110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact__title {
+  margin: 0;
+}
+
+.contact__text {
+  font-family: "Gilroy-Medium";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #070707;
+  margin-bottom: 29px;
+}
+
+.btn {
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #070707;
+  border-radius: 32px;
+  padding: 12px 29px 12px 29px;
+}
+
+.footer {
+  margin-top: 80px;
+  text-align: center;
+}
+.nav__footer {
+  margin-bottom: 38px;
+}
+.menu__footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-inf {
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  font-weight: 500;
+  color: #828282;
+}
+
+.footer__link {
+  margin-right: 60px;
+}
